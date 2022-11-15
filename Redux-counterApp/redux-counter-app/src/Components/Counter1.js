@@ -1,12 +1,18 @@
-import React from 'react'
+import React, { useState } from 'react'
+import Button from './Button';
+import Count from './Count';
 
-const Counter1 = () => {
+const Counter1 = ({id,count, incrementBtn, decrementBtn}) => {
+   
   return (
     <>
-          <div class="bg-white border w-96 m-auto mt-5 py-5">
-            <div class="pb-2 text-xl" id="counter">0</div>
-            <button class=" bg-sky-400 px-3 py-2 mr-3 text-white" id="increment">Increment</button>
-            <button class="bg-red-500 px-3 py-2 text-white" id="decrement">Decrement</button>
+          <div className="max-w-md mx-auto bg-white border w-96 m-auto mt-5 py-5">
+            
+
+            <Count count={count}/>
+           
+            <Button handler={()=>incrementBtn(id)}>Increment</Button>
+            <Button handler={()=>decrementBtn(id)}>Decrement</Button>
         </div>
     </>
   )
