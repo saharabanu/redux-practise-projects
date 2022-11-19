@@ -4,6 +4,7 @@ import Cart from "./Components/ShoppingCart/Cart/Cart";
 import CartTotal from "./Components/ShoppingCart/Cart/CartTotal";
 import Products from "./Components/ShoppingCart/Products/Products";
 import { store } from "./redux/store";
+import  { Toaster } from 'react-hot-toast';
 
 
 function App() {
@@ -38,6 +39,7 @@ function App() {
           </div>
         </div>
       </div>
+      <Toaster />
     </Provider>
     </>
   )
