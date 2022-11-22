@@ -1,6 +1,6 @@
 import React from 'react'
 import Blogs from './Blogs'
-import SingleBlog from './SingleBlog'
+
 
 const BlogSection = () => {
   return (

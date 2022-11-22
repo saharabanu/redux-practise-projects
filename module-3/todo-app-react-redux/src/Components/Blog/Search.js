@@ -1,7 +1,18 @@
 import React from 'react';
+import { useDispatch } from 'react-redux';
+import debounce from "lodash.debounce";
 import searchImg from '../../images/search.svg'
+import { filterBySearch } from '../../redux/blogFilters/blogFiltersActions';
 
 const Search = () => {
+  const dispatch = useDispatch();
+
+  const handleChange = (e) =>{
+    e.preventDefault();
+    dispatch(filterBySearch(e.target.value))
+
+}
+const debouncedSearch = debounce(handleChange, 1000);
   return (
     <>
          {/* <!-- search --> */}
@@ -12,6 +23,7 @@ const Search = () => {
                 className="outline-none border-none bg-gray-50 h-full w-full mr-2"
                 type="search"
                 name="search"
+                onChange={debouncedSearch}
                 placeholder="Search"
             />
             <img
