@@ -46,8 +46,6 @@ const Blogs = () => {
   
     
 
-    
-
   return (
     <>
          {/* <!-- card grid  --> */}
