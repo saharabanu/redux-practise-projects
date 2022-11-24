@@ -25,6 +25,8 @@ const TodoApp = () => {
 
               
                <Footer/>
+               <hr className="mt-4" />
+               
             </div>
         </div>
     </>

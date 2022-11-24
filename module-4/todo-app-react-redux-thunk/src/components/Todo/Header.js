@@ -1,0 +1,19 @@
+import React from 'react'
+
+
+const Header = () => {
+  return (
+    <>
+          <div
+                className="fixed top-0 left-0 text-center w-full header bg-violet-600 py-4 text-white font-bold text-lg shadow-lg "
+            >
+                
+              
+              Todo App With React Redux Thunk
+              
+            </div>
+    </>
+  )
+}
+
+export default Header

@@ -1,0 +1,84 @@
+{
+  "transactions": [
+    {
+      "name": "Salary",
+      "type": "income",
+      "amount": 5000,
+      "id": 1
+    },
+    {
+      "name": "Incentive",
+      "type": "income",
+      "amount": 60000,
+      "id": 2
+    },
+    {
+      "name": "Incentive",
+      "type": "income",
+      "amount": 60000,
+      "id": 3
+    },
+    {
+      "name": "Laptop",
+      "type": "expense",
+      "amount": 60000,
+      "id": 4
+    },
+    {
+      "name": "Some Books",
+      "type": "expense",
+      "amount": 1000,
+      "id": 5
+    },
+    {
+      "name": "From Mother",
+      "type": "income",
+      "amount": 4000,
+      "id": 6
+    },
+    {
+      "name": "From Company",
+      "type": "income",
+      "amount": 20000,
+      "id": 7
+    },
+    {
+      "name": "Medicine",
+      "type": "expense",
+      "amount": 3000,
+      "id": 8
+    },
+    {
+      "name": "Bonus",
+      "type": "income",
+      "amount": 8000,
+      "id": 9
+    },
+    {
+      "name": "Tour",
+      "type": "expense",
+      "amount": 10000,
+      "id": 10
+    },
+    {
+      "name": "From business",
+      "type": "income",
+      "amount":9000,
+      "id": 11
+    },
+    {
+      "name": "Monthly Family Cost",
+      "type": "expense",
+      "amount": 30000,
+      "id": 12
+    },
+    {
+      "name": " Rent House",
+      "type": "expense",
+      "amount": 11000,
+      "id": 13
+    }
+    
+    
+  ]
+}
